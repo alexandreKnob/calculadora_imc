@@ -82,7 +82,7 @@ class _HomeState extends State<Home> {
                 TextFormField(
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
-                      labelText: "Peso (kg)",
+                      labelText: "Peso (kg) teste",
                       labelStyle: TextStyle(color: Colors.green, fontSize: 24)),
                   textAlign: TextAlign.center,
                   controller: campoPeso,
@@ -99,6 +99,7 @@ class _HomeState extends State<Home> {
                       labelStyle: TextStyle(color: Colors.green, fontSize: 24)),
                   textAlign: TextAlign.center,
                   controller: campoAltura,
+
                   validator: (value){
                     if (value.isEmpty){
                       return "Informe a Altura!";
